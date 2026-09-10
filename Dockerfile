@@ -1,5 +1,5 @@
 # Red Hat Hardened Image — minimal glibc runtime (Project Hummingbird), digest-pinned
-FROM registry.access.redhat.com/hi/core-runtime@sha256:1212c3d1013768783ef9155304156074cda261e4ffb4445fd2925f1a267d8bd7
+FROM registry.access.redhat.com/hi/core-runtime@sha256:114d1b0ba3e2a1fc4ef42f8c1a388c6a7a2f8dca42a38a433464d0edb15bd56b
 
 COPY --chmod=755 entrypoint.sh /entrypoint.sh
 
